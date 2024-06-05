@@ -1,0 +1,49 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    color: #0d0d0d;
+    margin-top: 20px;
+}
+
+/* Estilos do botão */
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#start-button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos dos contêineres */
+.chart-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos dados */
+#noise-level,
+#average-decibel {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilos do gráfico */
+#noise-chart {
+    margin-top: 20px;
+}

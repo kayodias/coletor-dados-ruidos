@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de Ruído</title>
+        <!-- Vincule o arquivo CSS de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Medidor de Ruído</h1>
+    <button id="start-button">Iniciar Gravação</button>
+    
+    <div id="noise-level">Nível de Ruído: Desconhecido</div>
+    <div id="average-decibel">Média de Decibéis: 0.00 dB</div>
+    
+    <!-- Inclua os scripts JavaScript após o conteúdo HTML -->
+    <div class="chart-container">
+        <canvas id="noise-chart"></canvas>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
